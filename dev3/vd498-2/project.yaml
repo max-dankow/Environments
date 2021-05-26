@@ -90,5 +90,3 @@ spec:
     values: values.dev.yaml
     namespace: 'vd498-2'
     version: '0.0.1'
-
-
