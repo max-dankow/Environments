@@ -6,4 +6,89 @@ metadata:
 spec:
   params:
     appId: 'vd498'
-  charts: []
+  charts:
+  - name: security
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: cronservice
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: workflowservice
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: workflowfacade
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: workerdownload
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: storage
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: skillmonitor
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: mail
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: workermail
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: workersubtask
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: interactivejobsservice
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: documentsetstorage
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: blobstorage
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: auth2
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: auth
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: redisstreamscontroller
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: apiregistry
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: apigateway
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: testenvironment
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.27'
+  - name: infrastructure-data-conf
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.2'
+  - name: infrastructure-data
+    values: values.dev.yaml
+    namespace: 'vd498'
+    version: '0.0.0-vd498-20210601.2'
+
