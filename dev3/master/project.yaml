@@ -2,16 +2,16 @@ apiVersion: abbyy/v1
 kind: Project
 metadata:
   name: infrastructure-data
-  version: '0.0.0-vd498-20210608.7'
+  version: '0.0.0-master-20210608.8'
 spec:
   params:
-    appId: 'vd498'
+    appId: 'master'
   charts:
   - name: infrastructure-data-conf
     values: values.dev.yaml
-    namespace: 'vd498'
-    version: '0.0.0-vd498-20210608.7'
+    namespace: 'master'
+    version: '0.0.0-master-20210608.8'
   - name: infrastructure-data
     values: values.dev.yaml
-    namespace: 'vd498'
-    version: '0.0.0-vd498-20210608.7'
+    namespace: 'master'
+    version: '0.0.0-master-20210608.8'
