@@ -7,7 +7,7 @@ spec:
   params:
     appId: 'vd498'
   charts:
-  - name: infrastructure.core
+  - name: infrastructure-core
     values: values.dev.yaml
     namespace: 'vd498'
     version: '0.0.0-vd498-20210611.1'
