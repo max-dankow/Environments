@@ -2,7 +2,7 @@ apiVersion: abbyy/v1
 kind: Project
 metadata:
   name: infrastructure.core
-  version: '0.0.0-vd807-20210623.1'
+  version: '0.0.0-vd807-20210623.2'
 spec:
   params:
     appId: 'vd807'
@@ -10,4 +10,4 @@ spec:
   - name: infrastructure-core
     values: values.dev.yaml
     namespace: 'vd807'
-    version: '0.0.0-vd807-20210623.1'
+    version: '0.0.0-vd807-20210623.2'
