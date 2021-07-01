@@ -1,0 +1,81 @@
+apiVersion: abbyy/v1
+kind: Project
+metadata:
+  name: platform
+  version: '0.0.0-vd735-20210701.2'
+spec:
+  params:
+    appId: 'vd735'
+  charts:
+  - name: security
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: cronservice
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: workflowservice
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: workflowfacade
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: storage
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: skillmonitor
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: mail
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: interactivejobsservice
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: documentsetstorage
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: blobstorage
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: auth2
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: auth
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: redisstreamscontroller
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: apiregistry
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: apigateway
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: testenvironment
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.0-vd735-20210701.2'
+  - name: infrastructure-data-conf
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.2'
+  - name: infrastructure-data
+    values: values.dev.yaml
+    namespace: 'vd735'
+    version: '0.0.2'
