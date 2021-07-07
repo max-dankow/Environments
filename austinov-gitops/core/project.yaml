@@ -1,0 +1,13 @@
+apiVersion: abbyy/v1
+kind: Project
+metadata:
+  name: infrastructure.core
+  version: '0.0.0-vd807-20210624.2'
+spec:
+  params:
+    appId: 'core'
+  charts:
+  - name: infrastructure-core
+    values: values.dev.yaml
+    namespace: 'infrastructure'
+    version: '0.0.0-vd807-20210624.2'
