@@ -1,0 +1,81 @@
+apiVersion: abbyy/v1
+kind: Project
+metadata:
+  name: platform
+  version: '0.0.0-cp5634-20210708.3'
+spec:
+  params:
+    appId: 'cp5634'
+  charts:
+  - name: security
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: cronservice
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: workflowservice
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: workflowfacade
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: storage
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: skillmonitor
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: mail
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: interactivejobsservice
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: documentsetstorage
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: blobstorage
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: auth2
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: auth
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: redisstreamscontroller
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: apiregistry
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: apigateway
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: testenvironment
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.0-cp5634-20210708.3'
+  - name: infrastructure-data-conf
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.2'
+  - name: infrastructure-data
+    values: values.dev.yaml
+    namespace: 'cp5634'
+    version: '0.0.2'
