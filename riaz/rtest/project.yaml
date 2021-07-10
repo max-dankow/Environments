@@ -10,13 +10,13 @@ spec:
   - name: platform-upgrade
     values: values.yaml
     namespace: 'rtest'
-    version: '0.1.17'
+    version: '0.1.18'
     upgrade: true
   - name: testmg
     values: values.yaml
     namespace: 'rtest'
-    version: '0.1.20'
+    version: '0.1.21'
   - name: testmg2
     values: values.yaml
     namespace: 'rtest'
-    version: '0.1.1006'
+    version: '0.1.1007'
